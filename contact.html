@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid-container">
+
+
+    <div class="navbar">
+      <a id="logo" href="#">My Portfolio</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html"class="active">Contact<br>Us</a></li>
+      </ul>
+      <span id="menu">&#9776;</span>
+        
+    </div>
+
+    <div class="left-section">
+      <div class="top-stars">
+        <img src="Top Stars.png" alt="Profile Picture">
+        
+      </div>
+
+      <div class="image">
+        <img src="images (1).jpg" alt="Profile Picture">
+      </div>
+
+      <div class="bottom-stars">
+        <img src="Bottom Star.png" alt="Profile Picture">
+       
+      </div>
+    </div>
+
+   
+    <div class="right-section">
+      <h1>Hi! I am Hanson Kyle J. Sultan</h1>
+      <div class="text-box">
+        <p>You can reach me via email at: <strong>hansonkylesultan7@gmail.com</strong> or <strong>09194109854</strong> <br> <br> Facebook Account: <strong>Sultan Hanson Kyle Jaluag</strong> </p>
+      </div>
+    </div>
+  
+    
+    <footer class="footer">
+  </div>
+  <script>
+    const menuIcon = document.getElementById("menu");
+    const navMenu = document.querySelector(".navbar ul");
+  
+    menuIcon.addEventListener("click", () => {
+      navMenu.classList.toggle("show-menu");
+    });
+  </script>
+</body>
+</html>

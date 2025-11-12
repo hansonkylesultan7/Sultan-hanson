@@ -15,9 +15,9 @@
     <div class="navbar">
       <a id="logo" href="#">My Portfolio</a>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="index.html"class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact<br>Us</a></li>
       </ul>
       <span id="menu">&#9776;</span>
         
@@ -50,5 +50,15 @@
     
     <footer class="footer">
   </div>
+  <script>
+    const menuIcon = document.getElementById("menu");
+    const navMenu = document.querySelector(".navbar ul");
+  
+    menuIcon.addEventListener("click", () => {
+      navMenu.classList.toggle("show-menu");
+    });
+  </script>
+
+  
 </body>
 </html>
